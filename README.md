@@ -1,5 +1,5 @@
-# git-comandos-uteis
-Comandos uteis para utilizar o git
+# Comandos uteis para utilizar o git
+
 
 #### Criando um repositório git que sirva de servidor (só irá receber as informação dos outros que enviarem por push)
 git init --bare
