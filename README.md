@@ -1,5 +1,18 @@
 # Comandos uteis para utilizar o git
 
+__git config --local user.name__  //substituir para global caso queira aplicar em todos os repositórios do computador
+__git config --local user.email__
+
+#### Mostra o log de forma reduzida
+git log --online
+
+#### Mostra o log e as alterações que foram realizadas
+git log -p
+
+#### Enviar modificações para a pilha em memória
+git stash: caso não tenha feito o commit é enviado para uma pilha na memória
+
+git stash pop: Desempilha da memória
 
 #### Criando um repositório git que sirva de servidor (só irá receber as informação dos outros que enviarem por push)
 git init --bare
