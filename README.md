@@ -1,10 +1,20 @@
 # Comandos uteis para utilizar o git
 
-__git config --local user.name__  //substituir para global caso queira aplicar em todos os repositórios do computador
-__git config --local user.email__
+## Configuração
+#### Configurando nome do usuario e email
+git config --local user.name  //substituir para global caso queira aplicar em todos os repositórios do computador
 
+git config --local user.email
+
+#### Alterar o email
+git config user.email "usuario@user.com.br"
+
+## Log
 #### Mostra o log de forma reduzida
-git log --online
+git log --oneline
+
+#### Mostra log com a linha o tempo
+git log --graph --decorate --oneline
 
 #### Mostra o log e as alterações que foram realizadas
 git log -p
